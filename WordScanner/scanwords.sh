@@ -1,2 +1,2 @@
 #!/bin/sh
-python3.8 scanwords.py &
+python3.10 scanwords.py &
