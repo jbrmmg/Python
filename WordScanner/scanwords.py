@@ -231,7 +231,7 @@ class MainFrame(tk.Frame):
         for x in range(LETTERS_IN_THE_ALPHABET):
             self.letterByPosn[x] = LetterCount(x)
 
-        with open("words.txt") as fp:
+        with open("/opt/scanwords/words.txt") as fp:
             line = fp.readline()
             while line:
                 letterlist = list(line)
@@ -419,7 +419,7 @@ class MainFrame(tk.Frame):
 
         next_line = ""
         next_line_count = 0
-        with open("words.txt") as fp:
+        with open("/opt/scanwords/words.txt") as fp:
             line = fp.readline()
             cnt = 0
             while line:
