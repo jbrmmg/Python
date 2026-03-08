@@ -128,3 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /.idea/
+/WordScanner/WordScanner.iml
+/Python.iml
